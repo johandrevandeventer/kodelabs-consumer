@@ -3,9 +3,8 @@ package app
 // ======================== App ======================== //
 
 type AppConfig struct {
-	Runtime  RuntimeConfig  `mapstructure:"runtime" yaml:"runtime"`
-	Logging  LoggingConfig  `mapstructure:"logging" yaml:"logging"`
-	InfluxDB InfluxDBConfig `mapstructure:"influxdb" yaml:"influxdb"`
+	Runtime RuntimeConfig `mapstructure:"runtime" yaml:"runtime"`
+	Logging LoggingConfig `mapstructure:"logging" yaml:"logging"`
 }
 
 type RuntimeConfig struct {
@@ -24,11 +23,4 @@ type LoggingConfig struct {
 	MaxAge     int    `mapstructure:"max_age" yaml:"max_age"`
 	Compress   bool   `mapstructure:"compress" yaml:"compress"`
 	AddTime    bool   `mapstructure:"add_time" yaml:"add_time"`
-}
-
-type InfluxDBConfig struct {
-	URL    string `mapstructure:"url" yaml:"url"`
-	Org    string `mapstructure:"org" yaml:"org"`
-	Bucket string `mapstructure:"bucket" yaml:"bucket"`
-	Token  string `mapstructure:"token" yaml:"token"`
 }

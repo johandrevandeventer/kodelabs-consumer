@@ -11,10 +11,9 @@ var (
 	appConfig *AppConfig
 
 	// Default configurations
-	defaultAppConfig      *AppConfig
-	defaultRuntimeConfig  *RuntimeConfig
-	defaultLoggingConfig  *LoggingConfig
-	defaultInfluxDBConfig *InfluxDBConfig
+	defaultAppConfig     *AppConfig
+	defaultRuntimeConfig *RuntimeConfig
+	defaultLoggingConfig *LoggingConfig
 
 	// File paths
 	persistFilePath        = filepath.Join(coreutils.GetPersistDir(), "persist.json")
@@ -47,17 +46,9 @@ func init() {
 		AddTime:    true,
 	}
 
-	defaultInfluxDBConfig = &InfluxDBConfig{
-		URL:    "http://localhost:8086",
-		Org:    "bms",
-		Bucket: "bms",
-		Token:  "",
-	}
-
 	defaultAppConfig = &AppConfig{
-		Runtime:  *defaultRuntimeConfig,
-		Logging:  *defaultLoggingConfig,
-		InfluxDB: *defaultInfluxDBConfig,
+		Runtime: *defaultRuntimeConfig,
+		Logging: *defaultLoggingConfig,
 	}
 
 	appConfig = defaultAppConfig
