@@ -173,6 +173,8 @@ github.com/johandrevandeventer/kafkaclient v1.3.1 h1:GT/oEqURP1sHqYKAle9wINhoC4Q
 github.com/johandrevandeventer/kafkaclient v1.3.1/go.mod h1:nC3UOAF6M53+4eC0JcFkM8xutXWYOuOYfWNE+6/9oR8=
 github.com/johandrevandeventer/kodelabs v1.0.0 h1:khrYee75JLGdjUofBcCiCxsaZrLABhIZRtdvpkSQVy8=
 github.com/johandrevandeventer/kodelabs v1.0.0/go.mod h1:PsuBokVGAFwsV8oVJy9fQhuhjR8KRzBOz/QakfhLqXY=
+github.com/johandrevandeventer/kodelabs v1.1.0 h1:UUOMUzDZVSPu6ypkyAnYYmnOx5+pmGXuKnd8aq0IiGU=
+github.com/johandrevandeventer/kodelabs v1.1.0/go.mod h1:PsuBokVGAFwsV8oVJy9fQhuhjR8KRzBOz/QakfhLqXY=
 github.com/johandrevandeventer/logging v1.0.0 h1:1vmQNXFLy2cd5mNLHPr+Tz00gThPJsj2nnIpGu2D4KA=
 github.com/johandrevandeventer/logging v1.0.0/go.mod h1:rWF3KOGIiwZzt3nIj0WLrRxOkaiBWtV0Eg4UVxS6Y9o=
 github.com/johandrevandeventer/persist v1.0.0 h1:OEg2y6mjcnduLqDlrix2dbYklrkGue8sy+VWm1Ai9Uo=
