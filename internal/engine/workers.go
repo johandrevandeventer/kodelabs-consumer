@@ -61,7 +61,7 @@ func (e *Engine) startWorker() {
 				continue
 			}
 
-			loggerMsg := fmt.Sprintf("Kodelabs -> %s :: %s :: %s :: %s :: %s :: %s :: %s", m.State, m.CustomerName, m.SiteName, m.Controller, m.ControllerSerialNumber, m.DeviceType, m.DeviceSerialNumber)
+			loggerMsg := fmt.Sprintf("Kodelabs -> %s :: %s :: %s :: %s :: %s :: %s :: %s", m.State, m.CustomerName, m.SiteName, m.Controller, m.ControllerIdentifier, m.DeviceType, m.DeviceIdentifier)
 			kodelabsLogger.Info(loggerMsg)
 			kodelabsChannel <- *m
 		}

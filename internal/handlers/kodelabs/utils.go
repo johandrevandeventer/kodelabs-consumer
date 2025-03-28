@@ -15,14 +15,14 @@ func getDBInstance() (*devicesdb.BMS_DB, error) {
 	return bmsDB, nil
 }
 
-func GetDevicesBySerialNumber(serialNumber string) ([]models.Device, error) {
+func GetDevicesByIdentifier(identifier string) ([]models.Device, error) {
 	bmsDB, err := getDBInstance()
 	if err != nil {
 		return nil, err
 	}
 
 	var devices []models.Device
-	if err := bmsDB.DB.Preload("Site.Customer").Where("device_serial_number = ?", serialNumber).Find(&devices).Error; err != nil {
+	if err := bmsDB.DB.Preload("Site.Customer").Where("device_serial_number = ?", identifier).Find(&devices).Error; err != nil {
 		return nil, err
 	}
 

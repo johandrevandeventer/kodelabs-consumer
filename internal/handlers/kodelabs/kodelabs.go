@@ -51,14 +51,14 @@ func kodelabsHandler(payload kodelabs.Message) {
 		kodelabsLogger = zap.NewNop()
 	}
 
-	devices, err := GetDevicesBySerialNumber(payload.DeviceSerialNumber)
+	devices, err := GetDevicesByIdentifier(payload.DeviceIdentifier)
 	if err != nil {
 		logger.Error("Failed to get devices by serial number", zap.Error(err))
 		return
 	}
 
 	if len(devices) == 0 {
-		logger.Error("No devices found for serial number", zap.String("serial_number", payload.DeviceSerialNumber))
+		logger.Error("No devices found for serial number", zap.String("serial_number", payload.DeviceIdentifier))
 		return
 	}
 
