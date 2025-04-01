@@ -5,4 +5,5 @@ var decoderTypes = map[string]interface{}{
 	"pcs250":       2,
 	"refrigerator": 2,
 	"genset":       2,
+	"powermeter":   2,
 }
