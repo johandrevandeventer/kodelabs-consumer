@@ -58,7 +58,7 @@ func kodelabsHandler(payload kodelabs.Message) {
 	}
 
 	if len(devices) == 0 {
-		logger.Error("No devices found for serial number", zap.String("serial_number", payload.DeviceIdentifier))
+		logger.Error("No devices found for serial number", zap.String("identifier", payload.DeviceIdentifier))
 		return
 	}
 
