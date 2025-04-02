@@ -175,6 +175,8 @@ github.com/johandrevandeventer/kodelabs v1.0.0 h1:khrYee75JLGdjUofBcCiCxsaZrLABh
 github.com/johandrevandeventer/kodelabs v1.0.0/go.mod h1:PsuBokVGAFwsV8oVJy9fQhuhjR8KRzBOz/QakfhLqXY=
 github.com/johandrevandeventer/kodelabs v1.1.0 h1:UUOMUzDZVSPu6ypkyAnYYmnOx5+pmGXuKnd8aq0IiGU=
 github.com/johandrevandeventer/kodelabs v1.1.0/go.mod h1:PsuBokVGAFwsV8oVJy9fQhuhjR8KRzBOz/QakfhLqXY=
+github.com/johandrevandeventer/kodelabs v1.2.0 h1:u0MPMoLqiqn/KIljz9Ju7Qm5iCmjLFFdh06AJxftgVI=
+github.com/johandrevandeventer/kodelabs v1.2.0/go.mod h1:PsuBokVGAFwsV8oVJy9fQhuhjR8KRzBOz/QakfhLqXY=
 github.com/johandrevandeventer/logging v1.0.0 h1:1vmQNXFLy2cd5mNLHPr+Tz00gThPJsj2nnIpGu2D4KA=
 github.com/johandrevandeventer/logging v1.0.0/go.mod h1:rWF3KOGIiwZzt3nIj0WLrRxOkaiBWtV0Eg4UVxS6Y9o=
 github.com/johandrevandeventer/persist v1.0.0 h1:OEg2y6mjcnduLqDlrix2dbYklrkGue8sy+VWm1Ai9Uo=
